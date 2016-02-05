@@ -7,7 +7,7 @@ class AsciiArtView
 
     # Create message element
     message = document.createElement('div')
-    message.textContent = "The AsciiArt package is Alive! It's ALIVE!"
+    message.textContent = "AsciiArt werkt! It's ALIVE!"
     message.classList.add('message')
     @element.appendChild(message)
 
